@@ -1,9 +1,9 @@
 {
     "name": "ʂσυɾƈҽ αɳႦσႦα",
     "description": "great ! You are using the best version",
-    "logo": "https://telegra.ph/file/940938c53e06ee55731d5.jpg",
+    "logo": "https://telegra.ph/file/204294307ca87331e1449.jpg",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Hstbchg66/source-botat",
+    "repository": "https://github.com/Hstbchg66/anboba-ya-kosmok",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
