@@ -1,0 +1,109 @@
+{
+    "name": "ʂσυɾƈҽ αɳႦσႦα",
+    "description": "great ! You are using the best version",
+    "logo": "https://telegra.ph/file/940938c53e06ee55731d5.jpg",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/Hstbchg66/source-botat",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "اكتب هنا كود بايروجرام",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description":"اكتب ايدي مالك البوت",
+            "required": true,
+            "value": ""
+        },
+        "ASSID": {
+            "description": "اكتب ايدي حساب المساعد ",
+            "required": true,
+            "value": ""
+        },
+        "BG_IMG": {
+            "description": "يفضل تركها كما هي ، ضع هنا رابط صورة تليجراف يظهر عند تشغيل الاغنية ",
+            "required": true,
+            "value": "https://telegra.ph/file/940938c53e06ee55731d5.jpg"
+        },
+        "ASSNAME": {
+            "description": "اكتب هنا اسم حساب المساعد",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "اكتب هنا يوزر حساب المساعد بدون @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "اكتب هنا ايدي البوت",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "اكتب هنا يوزر البوت بدون @",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "اكتب هنا قناة الدعم",
+            "required": true,
+            "value": ""
+        },
+        "UPDATE": {
+            "description": "اكتب هنا قناة المطور",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_USERNAME": {
+            "description": "اكتب هنا يوزر المطور او المالك",
+            "required": true,
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description":"اكتب هنا اسم بوتك",
+            "required": true,
+            "value": ""
+        },
+        "START_PIC": {
+            "description": "ضع رابط صورة تليجراف يظهر لرسالة ستارت",
+            "value": "https://telegra.ph/file/940938c53e06ee55731d5.jpg",
+            "required": true
+            
+        },
+        "API_ID": {
+            "description": "لاتغيرها ابدا",
+            "required": true,
+            "value": "8934899"
+        },
+        "API_HASH": {
+            "description": "لاتغيرها ابدا",
+            "required": true,
+            "value": "bf3e98d2c351e4ad06946b4897374a1e"
+        },
+        "SUDO_USERS": {
+            "description": "اكتب هنا ايديات المطورين",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "اكتب توكن البوت ",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "لاتغيرها ابدا ابدا",
+            "required": true,
+            "value": "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority"
+            
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
